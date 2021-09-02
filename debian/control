@@ -2,6 +2,7 @@ Source: openwebrtc-gst-plugins
 Section: utils
 Priority: optional
 Maintainer: Kurento Maintenance Team <kurento@googlegroups.com>
+Uploaders: Daniel Pocock <daniel@pocock.pro>
 Build-Depends: debhelper (>= 8.0.0),
  dh-autoreconf,
  autoconf,
