@@ -8,6 +8,7 @@ Build-Depends: debhelper (>= 8.0.0),
  automake,
  libtool,
  libusrsctp-dev,
+ libsctp-dev,
  libgstreamer1.0-dev,
  libgstreamer-plugins-base1.0-dev
 Standards-Version: 3.9.4
@@ -17,11 +18,6 @@ Architecture: any
 Depends:
  ${misc:Depends},
  ${shlibs:Depends}
-Description: OpenWebRTC specific GStreamer plugins
-
-Package: openwebrtc-gst-plugins-dev
-Architecture: any
-Depends: openwebrtc-gst-plugins (= ${binary:Version})
 Description: OpenWebRTC specific GStreamer plugins
 
 Package: openwebrtc-gst-plugins-dbg

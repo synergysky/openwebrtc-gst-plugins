@@ -1,0 +1,10 @@
+diff --git a/Makefile.am b/Makefile.am
+index 05a0037..96dc2ec 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -1,4 +1,4 @@
+-SUBDIRS = gst-libs sys gst ext
++SUBDIRS = sys gst
+ 
+ ACLOCAL_AMFLAGS = -I m4
+ 
