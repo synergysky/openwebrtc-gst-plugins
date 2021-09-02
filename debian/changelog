@@ -1,3 +1,9 @@
+openwebrtc-gst-plugins (0.10.0+20190509-1~debify11+1) debify-bullseye; urgency=medium
+
+  * Build for debify-bullseye.
+
+ -- Daniel Pocock <daniel@pocock.pro>  Thu, 02 Sep 2021 16:21:49 +0200
+
 openwebrtc-gst-plugins (0.10.0+20190509-0kurento1) UNRELEASED; urgency=medium
 
   [ Santiago Carot-Nemesio ]
