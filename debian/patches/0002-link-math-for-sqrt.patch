@@ -1,0 +1,12 @@
+diff --git a/gst/scream/Makefile.am b/gst/scream/Makefile.am
+index c426f7b..6fa15a7 100644
+--- a/gst/scream/Makefile.am
++++ b/gst/scream/Makefile.am
+@@ -12,6 +12,7 @@ libgstscream_la_CFLAGS = \
+     $(GST_CFLAGS)
+ 
+ libgstscream_la_LIBADD = \
++    -lm \
+     -lgstrtp-1.0 \
+     $(GST_PLUGINS_BASE_LIBS) \
+     $(GST_BASE_LIBS) \
