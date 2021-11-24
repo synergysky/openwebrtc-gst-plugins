@@ -21,6 +21,11 @@ Depends:
  ${shlibs:Depends}
 Description: OpenWebRTC specific GStreamer plugins
 
+Package: openwebrtc-gst-plugins-dev
+Architecture: any
+Depends: openwebrtc-gst-plugins (= ${binary:Version})
+Description: OpenWebRTC specific GStreamer plugins
+
 Package: openwebrtc-gst-plugins-dbg
 Architecture: any
 Depends: openwebrtc-gst-plugins (= ${binary:Version})
